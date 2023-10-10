@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "eventName": "Yoga in the Park",
+      "date": "2023-10-15",
+      "location": "Central Park",
+      "description": "Join us for a relaxing yoga session in Central Park. All skill levels are welcome. Mats will be provided.",
+      "picture": "https://i.ibb.co/94CwHvr/jared-rice-NTy-Bbu66-SI-unsplash.jpg",
+      "registrationLink": "https://i.ibb.co/94CwHvr/jared-rice-NTy-Bbu66-SI-unsplash.jpg",
+      "contactEmail": "yoga@example.com",
+      "organizer": "Wellness Center",
+      "ticketPrice": 15.99,
+      "maxAttendees": 50
+    },
+    {
+      "id": 2,
+      "eventName": "Healthy Cooking Workshop",
+      "date": "2023-11-05",
+      "location": "Community Center",
+      "description": "Learn how to prepare nutritious and delicious meals. Our expert chef will guide you through the process.",
+      "picture": "https://i.ibb.co/xFCyK0y/brooke-lark-j-UPOXXRNdc-A-unsplash.jpg",
+      "registrationLink": "https://example.com/cooking-workshop-registration",
+      "contactEmail": "cooking@example.com",
+      "organizer": "Healthy Living Institute",
+      "ticketPrice": 25.99,
+      "maxAttendees": 30
+    },
+    {
+      "id": 3,
+      "eventName": "Meditation Retreat",
+      "date": "2023-11-20",
+      "location": "Serene Retreat Center",
+      "description": "Escape the hustle and bustle of daily life. Join us for a weekend of meditation and relaxation.",
+      "picture": "https://i.ibb.co/zHGgXcf/luke-porter-tr0-t2-Yogz0-unsplash.jpg",
+      "registrationLink": "https://example.com/meditation-retreat-registration",
+      "contactEmail": "meditation@example.com",
+      "organizer": "Mindful Journeys",
+      "ticketPrice": 199.99,
+      "maxAttendees": 20
+    },
+    {
+      "id": 4,
+      "eventName": "Fitness Bootcamp",
+      "date": "2023-12-10",
+      "location": "City Gym",
+      "description": "Intensive fitness training to boost your stamina and improve overall health.",
+      "picture": "https://i.ibb.co/mNwXCys/danielle-cerullo-CQf-Nt66tt-ZM-unsplash.jpg",
+      "registrationLink": "https://example.com/fitness-bootcamp-registration",
+      "contactEmail": "fitness@example.com",
+      "organizer": "FitLife Athletics",
+      "ticketPrice": 29.99,
+      "maxAttendees": 40
+    },
+    {
+      "id": 5,
+      "eventName": "Nutrition Seminar",
+      "date": "2024-01-15",
+      "location": "Health Clinic",
+      "description": "Get expert advice on maintaining a healthy diet and making informed nutrition choices.",
+      "picture": "https://i.ibb.co/FHs5TqD/engin-akyurt-Y5n8m-Cpvl-ZU-unsplash.jpg",
+      "registrationLink": "https://example.com/nutrition-seminar-registration",
+      "contactEmail": "nutrition@example.com",
+      "organizer": "NutriWellness",
+      "ticketPrice": 10.99,
+      "maxAttendees": 50
+    },
+    {
+      "id": 6,
+      "eventName": "Mindfulness Workshop",
+      "date": "2024-02-05",
+      "location": "Wellness Center",
+      "description": "Learn techniques for reducing stress and anxiety through mindfulness meditation.",
+      "picture": "https://i.ibb.co/Fztsq9t/laury-ricquebourg-h-Gx-WQv-Lj-TM-unsplash.jpg",
+      "registrationLink": "https://example.com/mindfulness-workshop-registration",
+      "contactEmail": "mindfulness@example.com",
+      "organizer": "CalmMind Institute",
+      "ticketPrice": 19.99,
+      "maxAttendees": 25
+    }
+  ]
+  
