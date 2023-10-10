@@ -24,6 +24,7 @@ const router = createBrowserRouter([
         path: "/services/:id",
         element: <PrivateRoutes><DynamicCard/></PrivateRoutes>,
         
+        
       },
       {
         path: "/register",
