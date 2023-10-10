@@ -5,6 +5,9 @@ import ErrorPage from "../pages/errorpage/ErrorPage";
 import Register from "../pages/register/Register";
 import Login from "../pages/login/Login";
 import DynamicCard from "../components/dynamiccard/DynamicCard";
+import Profile from "../pages/Profile";
+import PrivateRoutes from "./PrivateRoutes";
+import Blog from "../pages/blog";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/services/:id",
-        element: <DynamicCard/>,
+        element: <PrivateRoutes><DynamicCard/></PrivateRoutes>,
         
       },
       {
@@ -29,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login/>,
+      },
+      {
+        path: "/profile",
+        element: <PrivateRoutes><Profile/></PrivateRoutes>,
+      },
+      {
+        path: "/blog",
+        element: <PrivateRoutes><Blog/></PrivateRoutes>,
       },
     ],
   },
