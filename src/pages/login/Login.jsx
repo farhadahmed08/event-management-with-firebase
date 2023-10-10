@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const Login = () => {
 
-
+    const {signInWithGoogle} = useContext(AuthContext);
     const [success,setSuccess] = useState("");
     const [registerError,setRegisterError]=useState('');
     
@@ -71,6 +71,7 @@ const Login = () => {
                 Forgot password?
               </a>
             </label>
+            <button onClick={signInWithGoogle}  className="btn">login with google</button>
           </div>
           <div className="form-control mt-6">
             <button className="btn btn-primary">Login</button>
@@ -82,6 +83,7 @@ const Login = () => {
             Register
           </Link>
         </p>
+        
       </div>
     );
 };
