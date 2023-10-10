@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 const ServiceCard = ({ card }) => {
-  const { eventName, description, picture } = card;
+  const { eventName, description, picture ,id} = card;
 
   return (
     <div className="mb-10">
@@ -16,13 +18,14 @@ const ServiceCard = ({ card }) => {
           </p>
         </div>
         <div className="p-6 pt-0">
+          <Link to={`/services/${id}`}>
           <button
-            className="btn btn-danger"
+            className="btn btn-accent"
             type="button"
             data-ripple-light="true"
           >
             Read More
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>
