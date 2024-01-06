@@ -8,6 +8,7 @@ import DynamicCard from "../components/dynamiccard/DynamicCard";
 import Profile from "../pages/Profile";
 import PrivateRoutes from "./PrivateRoutes";
 import Blog from "../pages/blog";
+import About from "../pages/About/About";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/services/:id",
+        loader:()=>fetch('/data.json'),
         element: <PrivateRoutes><DynamicCard/></PrivateRoutes>,
         
         
@@ -33,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login/>,
+      },
+      {
+        path: "/about",
+        element: <About/>,
       },
       {
         path: "/profile",
